@@ -7,6 +7,7 @@
     </head>
     <body>
         <h1>Olá Spring!!!</h1>
+        <h2>${mensagem}</h2>
     </body>
 </html>
 
