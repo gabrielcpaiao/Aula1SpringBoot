@@ -12,5 +12,6 @@ public class IndexController {
         visualizacao.addAttribute("mensagem", "Olá " + n);
         // https://8080-gabrielcpai-aula1spring-ayb028veeeh.ws-us105.gitpod.io/?nome=Gabriel
         return "home";
+        //usando o Spring Boot usar: gradle bootRun
     }
 }

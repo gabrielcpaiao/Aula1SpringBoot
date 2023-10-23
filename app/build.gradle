@@ -5,12 +5,17 @@ plugins {
 }
 
 repositories {
-	mavenCentral()
+	mavenCentral() //maven central search
 }
 
 dependencies {
-    implementation 'org.springframework.boot:spring-boot-starter-web'
-	implementation 'org.apache.tomcat.embed:tomcat-embed-jasper'
-	implementation 'org.glassfish.web:jakarta.servlet.jsp.jstl:3.0.1'
-	implementation 'jakarta.servlet.jsp.jstl:jakarta.servlet.jsp.jstl-api:3.0.0'
+    implementation 'org.springframework.boot:spring-boot-starter-web' //aplicacao web spring boot
+	implementation 'org.apache.tomcat.embed:tomcat-embed-jasper' //servidor spring boot
+	implementation 'org.glassfish.web:jakarta.servlet.jsp.jstl:3.0.1' //jsp
+	implementation 'jakarta.servlet.jsp.jstl:jakarta.servlet.jsp.jstl-api:3.0.0' //jsp
+	// https://central.sonatype.com/artifact/mysql/mysql-connector-java
+	implementation 'mysql:mysql-connector-java:8.0.33'
+	//rodar um gradle build
+	// https://central.sonatype.com/artifact/org.springframework.boot/spring-boot-starter-data-jpa
+	implementation 'org.springframework.boot:spring-boot-starter-data-jpa:3.1.5'
 }
